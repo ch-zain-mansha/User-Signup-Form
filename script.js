@@ -84,6 +84,14 @@ let verifyEmail = () => {
 
 
 let verifyPassword = () => {
+    paraForPassword.innerText = "";
+    paraForPassword2.innerText = "";
+    paraForPassword3.innerText = "";
+    paraForPassword4.innerText = "";
+    paraForPassword5.innerText = "";
+    paraForPassword6.innerText = "";
+
+    
     if (input3.value.trim() === "") {
         paraForPassword.innerText += "Write your password\n";
         paraForPassword.style.color = 'red';
